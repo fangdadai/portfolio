@@ -6,7 +6,7 @@ import oden from "./assets/oden.jpg";
 import potatoCB from "./assets/potatoCB.jpg";
 import soBa from "./assets/soBa.jpg";
 import quebec from "./assets/quebec.jpg";
-import helifax from "./assets/helifax.jpg";
+import halifax from "./assets/halifax.jpg";
 import lunenburg from "./assets/lunenburg.jpg";
 import fundy from "./assets/fundy.jpg";
 import nb from "./assets/nb.jpg";
@@ -93,9 +93,9 @@ export const blogs = [
   {
     id: 3,
     value: "travel",
-    image: helifax,
-    title: "Helifax",
-    content: `Helifax Harbour (Nova Scotia) at night\n  \nPhoto taken on: July 8, 2022`,
+    image: halifax,
+    title: "Halifax",
+    content: `Halifax Harbour (Nova Scotia) at night\n  \nPhoto taken on: July 8, 2022`,
   },
   {
     id: 4,
@@ -140,7 +140,7 @@ export const blogs = [
     value: "travel",
     image: quebec,
     title: "Quebec City",
-    content: `Photo taken on: July 13, 2023  \n`,
+    content: `It is a 3D poem...\n \nPhoto taken on: July 13, 2023  \n`,
   },
   {
     id: 10,
