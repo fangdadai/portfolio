@@ -21,16 +21,6 @@ const ExampleComponent = () => {
   );
 };
 
-const onButtonClick = () => {
-  const pdfUrl = "../public/Fangda_Resume.pdf";
-  const link = document.createElement("a");
-  link.href = pdfUrl;
-  link.download = "Fangda_Resume.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
-
 const Home = () => {
   return (
     <div className="section flex justify-center items-center" id="home">
@@ -55,12 +45,9 @@ const Home = () => {
           {ExampleComponent()}
           </h3>
           <div className="flex mt-4 gap-4">
-            <button
-              onClick={onButtonClick}
-              className="py-2 px-4 border-[2px] border-blue border-solid text-[0.9rem] rounded-[2.2rem] shadow-md"
-            >
-              Download Cv
-            </button>
+            <a className="py-2 px-4 border-[2px] border-blue border-solid text-[0.9rem] rounded-[2.2rem] shadow-md" 
+               href="Fangda_Resume.pdf" download><strong>Download Resume</strong>
+            </a>
             <a
               href="#contact"
               className="py-2 px-4 border-[2px] border-solid border-grey text-[0.9rem] rounded-[2.2rem] shadow-md"
