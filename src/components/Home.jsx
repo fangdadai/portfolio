@@ -22,10 +22,10 @@ const ExampleComponent = () => {
 };
 
 const onButtonClick = () => {
-  const pdfUrl = "/Fangda_Resume.pdf";
+  const pdfUrl = "../public/Fangda_Resume.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "/Fangda_Resume.pdf";
+  link.download = "Fangda_Resume.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
