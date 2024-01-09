@@ -44,10 +44,10 @@ const Projects = () => {
               >
                 {media.mediaType === "video" ? (
                   <motion.video controls>
-                    <source loading="lazy" src={media.video} type="video/mp4" />
+                    <source src={media.video} type="video/mp4" />
                   </motion.video>
                 ) : (
-                  <motion.img loading="lazy" src={media.image} alt="" />
+                  <motion.img src={media.image} alt="" />
                 )}
               </motion.div>
             ))}

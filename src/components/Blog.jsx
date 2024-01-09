@@ -41,7 +41,7 @@ const Blog = () => {
 
           return (
             <div key={blog.id} className="shadow-md hover:shadow-none p-2">
-              <img loading="lazy" src={blog.image} alt="" />
+              <img src={blog.image} alt="" />
               <div className="mt-3">
                 <div className="text-xl font-bold">{blog.title}</div>
                 <p className="text-[0.9rem] mt-2 opacity-80">
