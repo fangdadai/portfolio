@@ -3,7 +3,7 @@ import me from "../assets/me.jpg";
 import { motion } from "framer-motion";
 import { TypeAnimation } from 'react-type-animation';
  
-const ExampleComponent = () => {
+const MyIntro = () => {
   return (
     <TypeAnimation
       sequence={[
@@ -42,7 +42,7 @@ const Home = () => {
             Fangda Dai
           </h2>
           <h3>
-          {ExampleComponent()}
+          {MyIntro()}
           </h3>
           <div className="flex mt-4 gap-4">
             <a className="py-2 px-4 border-[2px] border-blue border-solid text-[0.9rem] rounded-[2.2rem] shadow-md" 
