@@ -8,9 +8,9 @@ const MyIntro = () => {
     <TypeAnimation
       sequence={[
         `Hello! Welcome to my website, this is Fangda speaking.
-        I'm a 2nd-year CS student at the University of Waterloo. This
+        I'm a 3rd-year CS student at the University of Waterloo. This
         website serves as a platform to document some of my projects and daily lives.
-        Currently, I'm seeking for a co-op position for Spring 2024.
+        Currently, I'm seeking for a co-op position for Winter 2025.
         Please feel free to reach out to me!`
       ]}
       wrapper="span"
