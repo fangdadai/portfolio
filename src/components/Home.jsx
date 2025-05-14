@@ -7,10 +7,10 @@ const MyIntro = () => {
   return (
     <TypeAnimation
       sequence={[
-        `Hello! Welcome to my website, this is Fangda speaking.
+        `Hello! Welcome to my website, this is Fangda.
         I'm a 3rd-year CS student at the University of Waterloo. This
         website serves as a platform to document some of my projects and daily lives.
-        Currently, I'm seeking for a co-op position for Winter 2025.
+        Currently, I'm seeking for a co-op position for Fall 2025 (Sept to Dec).
         Please feel free to reach out to me!!`
       ]}
       wrapper="span"
