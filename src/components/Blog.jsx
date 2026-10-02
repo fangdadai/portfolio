@@ -13,7 +13,7 @@ export default function Blog({ onOpen }) {
   const entries = available.filter((entry) => effectiveFilter === 'All' || entry.category === effectiveFilter);
   return (
     <section id="journal" className="content-section journal-section" tabIndex={-1} aria-labelledby="journal-title">
-      <Reveal><SectionHeading id="journal-title" number="03" label="PERSONAL ARCHIVE" title="Things beyond the screen."><p>Food, travel, competition, and<br />the photographs I kept.</p></SectionHeading></Reveal>
+      <Reveal><SectionHeading id="journal-title" number="03" label="PERSONAL ARCHIVE" title="Things beyond the screen."><p>Food, travel, competition, and <br />the photographs I kept.</p></SectionHeading></Reveal>
       <div className="collection-toolbar"><div className="filters" role="group" aria-label="Filter journal">{categories.map((category) => <button key={category} aria-pressed={effectiveFilter === category} onClick={() => setFilter(category)}>{category}</button>)}</div><span className="eyebrow collection-count" aria-live="polite">{String(entries.length).padStart(2, '0')} entries</span></div>
       <motion.div layout className="journal-grid"><AnimatePresence mode="popLayout">{entries.map((entry) => <motion.article key={entry.id} className="journal-card" layout initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
           <div className="journal-photo"><img src={entry.image} alt={entry.imageAlt} loading="lazy" width="640" height="480" /><span className="photo-corner" aria-hidden="true">↗</span></div>
