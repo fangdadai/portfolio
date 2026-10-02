@@ -156,8 +156,8 @@ export const contacts = [
   {
     id: 1,
     icon: <TfiEmail />,
-    text: "fdai@uwaterloo.ca",
-    href: "mailto:fdai@uwaterloo.ca",
+    text: "fangdadai9@gmail.com",
+    href: "mailto:fangdadai9@gmail.com",
   },
   {
     id: 2,
